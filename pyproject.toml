@@ -1,0 +1,12 @@
+[project]
+name = "requizit-text"
+version = "1.0.0"
+description = "Build of the ReQuizit Text typeface"
+requires-python = ">=3.12"
+dependencies = ["fonttools[woff]>=4.55"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

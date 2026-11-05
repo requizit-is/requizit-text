@@ -1,0 +1,45 @@
+FONTLOG for ReQuizit Text
+
+This file provides detailed information on the ReQuizit Text font.
+This information should be distributed along with the ReQuizit Text font
+and any derivative works.
+
+
+Basic Font Information
+
+ReQuizit Text is the text typeface of ReQuizit. It is a renamed build of
+Inter 4.1, designed by Rasmus Andersson, and is licensed under the SIL Open
+Font License, Version 1.1.
+
+One variable font, upright only. Axes: weight 100-900, optical size 14-32.
+Covers Latin, Latin Extended (including Icelandic), Cyrillic and Greek.
+
+Source file: sources/InterVariable.ttf, from the Inter 4.1 release
+(https://github.com/rsms/inter/releases/tag/v4.1, Inter-4.1.zip,
+SHA-256 9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e).
+Upstream project: https://github.com/rsms/inter
+
+
+ChangeLog
+
+5 Nov 2026 (Igor Churmeev) ReQuizit Text v1.000
+- Renamed the family to ReQuizit Text and the PostScript names to
+  ReQuizitText. The font name no longer uses "Inter".
+- Set the version to 1.000 and the vendor ID to REQZ.
+- Removed the Macintosh name records.
+- Glyphs, metrics, kerning, OpenType features and variation data are
+  unchanged from Inter 4.1.
+
+For the history of the original design, see the Inter repository:
+https://github.com/rsms/inter
+
+
+Acknowledgements
+
+N: Rasmus Andersson
+W: https://rsms.me/inter/
+D: Designer of Inter
+
+N: Igor Churmeev (ReQuizit)
+W: https://github.com/requizit-is/requizit-text
+D: The ReQuizit Text build
