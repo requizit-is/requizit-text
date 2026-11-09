@@ -12,6 +12,7 @@ Inter 4.1, designed by Rasmus Andersson, and is licensed under the SIL Open
 Font License, Version 1.1.
 
 One variable font, upright only. Axes: weight 100-900, optical size 14-32.
+Four static instances of it, for renderers that need one file per weight.
 Covers Latin, Latin Extended (including Icelandic), Cyrillic and Greek.
 
 Source file: sources/InterVariable.ttf, from the Inter 4.1 release
@@ -21,6 +22,14 @@ Upstream project: https://github.com/rsms/inter
 
 
 ChangeLog
+
+9 Nov 2026 (Igor Churmeev) Static instances
+- Added ReQuizitText-Regular, -Medium, -Bold and -Black: static instances
+  at weights 400, 500, 700 and 900 and optical size 32, cut to the brand's
+  web character set (Latin with Icelandic, Russian Cyrillic, punctuation,
+  the euro and numero signs). They are for renderers that need one file
+  per weight, such as resvg.
+- The variable font is unchanged.
 
 5 Nov 2026 (Igor Churmeev) ReQuizit Text v1.000
 - Renamed the family to ReQuizit Text and the PostScript names to
